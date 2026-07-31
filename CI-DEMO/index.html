@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-card">
+    <header>
+      <h1>Task Tracker</h1>
+      <p>Stay organized today</p>
+    </header>
+
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="What needs to be done?" required autocomplete="off">
+      <button type="submit" id="add-btn">Add Task</button>
+    </form>
+
+    <ul id="task-list"></ul>
+
+    <div class="footer">
+      <span id="items-left">0 tasks left</span>
+      <button id="clear-completed">Clear Done</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
